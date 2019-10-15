@@ -84,6 +84,21 @@ public class Gftshp_loginsteps {
 
 
 
+
+    @When("^I enter invalid username \"([^\"]*)\"$")
+    public void i_enter_invalid_username(String invalidusername) throws Throwable {
+        //driver.findElement(By.xpath("//*[@id=\"input-email\"]")).sendKeys(invalidusername);
+        login.Enterinvalidusername(invalidusername);
+        //throw new PendingException();
+    }
+
+    @When("^I enter invalid password \"([^\"]*)\"$")
+    public void i_enter_invalid_password(String invalidpassword) throws Throwable {
+       // driver.findElement(By.xpath("//*[@id=\"input-password\"]")).sendKeys(invalidpassword);
+        login.Enterinvalidpassword(invalidpassword);
+
+       // throw new PendingException();
+    }
     @Then("^I am unable to login$")
     public void iAmUnableToLogin()
     {
@@ -96,16 +111,4 @@ public class Gftshp_loginsteps {
         driver.quit();
 
     }
-    @When("^I enter invalid username \"([^\"]*)\"$")
-    public void i_enter_invalid_username(String invalidusername) throws Throwable {
-        driver.findElement(By.xpath("//*[@id=\"input-email\"]")).sendKeys(invalidusername);
-        //throw new PendingException();
-    }
-
-    @When("^I enter invalid password \"([^\"]*)\"$")
-    public void i_enter_invalid_password(String invalidpassword) throws Throwable {
-        driver.findElement(By.xpath("//*[@id=\"input-password\"]")).sendKeys(invalidpassword);
-       // throw new PendingException();
-    }
-
 }

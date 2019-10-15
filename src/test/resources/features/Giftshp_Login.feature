@@ -12,7 +12,9 @@ Feature: GiftShop Login
 
  Scenario: Invalid Login
     And    I enter invalid username "Adenke677"
-    And    I enter invalid password "Oyinloluuara"
+    And    I enter invalid password "Oyinloluuara1234444"
     And   I enter click on Login button
 
     Then   I am unable to login
+
+   Scenario: Valid Registration

@@ -70,5 +70,30 @@ public class loginPageObject {
       Assert.assertEquals(actual_message, "Account");
       System.out.println("Message passed Succefully");
     }
+//enter username
+    @FindBy(how = How.XPATH, using ="//*[@id=\"input-email\"]")
+    private WebElement invalidusername;
+
+    public void Enterinvalidusername(String invalidusername)
+    {
+
+        username.sendKeys(invalidusername);
+
+    }
+
+    //enter invalid password
+    @FindBy(how = How.XPATH, using ="//*[@id=\"input-email\"]")
+    private WebElement invalidpassword;
+
+    public void Enterinvalidpassword(String invalidpassword)
+    {
+
+        password.sendKeys(invalidpassword);
+
+    }
+
+    //assert  test present
+
+
 }
 
