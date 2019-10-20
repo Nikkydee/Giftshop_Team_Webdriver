@@ -1,10 +1,9 @@
 Feature: GiftShop Seller Registration
-
-Scenario : Valid Seller Registration
+  Scenario: Valid Seller Registration
   Given I am loggd onto  Giftshp website
   When  I click My Accnt optns menu option
   And I clck Register menu optn
-  And  I enter firstname "firstname" and  "lastname" and email "email" and password "password" and confirmpassword "cpassword"
+  And  I enter firstname "firstname" and "lastname" and email "email" and password "password" and confirmpassword "cpassword"
   And I enter telephone
   And I Enter passwrd
   And I  enter confirm passwrd
@@ -34,5 +33,5 @@ Scenario : Valid Seller Registration
 
   Then I am a registered seller
 
- # Examples:
-   # |firstname|Lastname|password|email|password|confirmEmail}|Storepostcode|PaypalEmailID|
+ #Examples:
+   # |firstname|lastname|passwrd|cpasswrd|email|confirmEmail}|Storepostcode|PaypalEmailID|
