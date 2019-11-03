@@ -6,19 +6,18 @@ The skills required for Software Testing includes Communication skills, SQL Skil
 Eye for details to detect defects,quality bug reporting skills.
 
 Defect Life cycle
-*Reproduce the defect
-*Assign the defect a priority and severity
-*Assign the defect to the development team
-*Retest the defect when fixed
-*Close the defect
+-Reproduce the defect  
+-Assign the defect a priority and severity  
+-Assign the defect to the development team  
+-Retest the defect when fixed    
+-Close the defect  
 
 Types of Testing
-Manual Testing: process of testing an application to ensure it meets specified requirement.
-Acceptance Testing:is a test conducted whether to accept or reject a software application.
-System End-to-End Testing: Is the testing of software application to uncover defects. 
-Functional Testing: This is testing the functional areas in an application.
-Performance Testing: is testing an application to ensure that it performs as expected.
-
+Manual Testing: process of testing an application to ensure it meets specified requirement.  
+Acceptance Testing:is a test conducted whether to accept or reject a software application.  
+System End-to-End Testing: Is the testing of software application to uncover defects.   
+Functional Testing: This is testing the functional areas in an application.  
+Performance Testing: is testing an application to ensure that it performs as expected.  
 
 
 Behaviour Driven Development using Gherkins
