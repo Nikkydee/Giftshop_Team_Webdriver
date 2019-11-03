@@ -1,18 +1,18 @@
-## Blueskycitadel-TeamWebdriver
-# Manual Testing
+# Blueskycitadel-TeamWebdriver
+## Manual Testing
 Software Testing is the process of verifying and validating a software application and ensuring that it meets specied required specification.
 There is no exhaustive testing as a tester, my duty is minimize defects.
 The skills required for Software Testing includes Communication skills, SQL Skills to query database, Hands on experience on Test Management tool like Azure Deveops,JIRA and Test Rail
 Eye for details to detect defects,quality bug reporting skills.
 
-**Defect Life cycle**  
+###**Defect Life cycle**  
 -Reproduce the defect  
 -Assign the defect a priority and severity  
 -Assign the defect to the development team  
 -Retest the defect when fixed    
 -Close the defect  
 
-Types of Testing  
+###**Types of Testing**  
 Manual Testing: process of testing an application to ensure it meets specified requirement.  
 Acceptance Testing:is a test conducted whether to accept or reject a software application.  
 System End-to-End Testing: Is the testing of software application to uncover defects.   
@@ -20,7 +20,7 @@ Functional Testing: This is testing the functional areas in an application.
 Performance Testing: is testing an application to ensure that it performs as expected.  
 
 
-Behaviour Driven Development using Gherkins
+**Behaviour Driven Development using Gherkins**
  
 BDD helps to narrow communication gap between the development team wit real world examples. It also encorages collaboration between QA, developer and the non-technical participants
 
