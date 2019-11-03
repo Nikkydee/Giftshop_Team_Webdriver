@@ -56,14 +56,14 @@ STEP 4: Install Intellij
 a)Configure path in intellij  
 b)Update POM file  
 
-##JAVA INSTALLATION
+**1.JAVA INSTALLATION**
 
 Download java from https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
 
 ![image](https://user-images.githubusercontent.com/43099966/68091384-4f861600-fe7f-11e9-867a-1911eeff38a9.png)  
 
 
-##CONFIGURING VARIABLE  
+**2.CONFIGURING VARIABLE ** 
 a) Set the Java Home:
 
 
@@ -73,22 +73,22 @@ a) Set the Java Home:
 b) Update PATH
 
 
-##INSTALL MAVEN
+**3.INSTALL MAVEN**
 
 
 
-##CONFIGURE MAVEN
+**4.CONFIGURE MAVEN**
 
 
-##INSTALL INTELLIJ
+**5.INSTALL INTELLIJ**
 
 
-##CONFIGURE INTELLIJ
+**6.CONFIGURE INTELLIJ**
 
 
-### ADD CUCUMBER PLUGIN
+**7.ADD CUCUMBER PLUGIN**
 
-##UPDATE POM  
+**8.UPDATE POM**  
 
 properties>
         <maven.compiler.source>1.7</maven.compiler.source>
@@ -218,7 +218,7 @@ properties>
     </build>
 </project>
 
-##UPDATE TESTRUNNER  
+**9**. UPDATE TESTRUNNER  
 import cucumber.api.CucumberOptions;
 
 import cucumber.api.testng.TestNGCucumberRunner;
