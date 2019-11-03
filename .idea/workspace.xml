@@ -16,22 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/logout_stepdef.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/buyerregStepdef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="95" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/Gftshp_loginsteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="61" />
+            <state relative-caret-position="296">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/buyerregStepdef.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gftshp_Logout.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="34">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/logout_stepdef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="39" column="95" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,18 +58,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Login_Forgot Password.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_SellerReg.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="34">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
@@ -81,29 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/SellerReg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Buyer_Registration.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="242">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,7 +82,37 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Share_Gift.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Buyer_Registration.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_checkout.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/checkoutStepdef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/features/Gftshp_Buyer _Registration.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/Giftshopsite_steps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Gftshp _Registration.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Gftshp_loginsteps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/myaccountoptionsstepdef.java" />
         <option value="$PROJECT_DIR$/src/test/java/myacctoptionstepdef.java" />
         <option value="$PROJECT_DIR$/src/test/java/Homepage_stepdef.java" />
@@ -166,13 +158,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/Gfshp_ShareGift.feature" />
         <option value="$PROJECT_DIR$/src/test/java/checkoutStepdef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Gfshp_Share_Gift.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/checkoutStepdef.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/WishlistStepDEf.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/WishlistStepdef.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/wishlistsStepdef.java" />
-        <option value="$PROJECT_DIR$/src/test/java/wishliststepdef.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Gftshp_Wishlist.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/wishliststepdef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Gfshp_View_MyAccountOption.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyAccountStepdef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Gfshp_Homepage.feature" />
@@ -181,8 +169,17 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/SellerRegStepdef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Gfshp_SellerReg.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/SellerReg.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Gfshp_Buyer_Registration.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/wishlsitstepdef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/wishlist.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/wishlist.java" />
+        <option value="$PROJECT_DIR$/src/test/java/wishliststepdef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/wishliststepdef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/Wishliststepdef.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Gftshp_Wishlist.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/Wishliststep.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/buyerregStepdef.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Gfshp_Buyer_Registration.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/checkoutStepdef.java" />
       </list>
     </option>
   </component>
@@ -224,8 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,14 +252,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepdefs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,10 +269,17 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Gfshp_Buyer_Registration">
+  <component name="RunManager" selected="Cucumber java.Scenario: Customer Checkout">
     <configuration name="Feature: Gfshp_Buyer_Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gfshp_Buyer_Registration.feature" />
@@ -326,14 +320,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Gfshp_SellerReg" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Gfshp_checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gfshp_SellerReg.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gfshp_checkout.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UITest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Gfshp_SellerReg" />
+      <option name="SUGGESTED_NAME" value="Feature: Gfshp_checkout" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -344,14 +338,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Gfshp_SellerRegStepDef" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Gftshp_Wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gfshp_SellerRegStepDef.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gftshp_Wishlist.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UITest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Gfshp_SellerRegStepDef" />
+      <option name="SUGGESTED_NAME" value="Feature: Gftshp_Wishlist" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -362,15 +356,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Valid Seller Registration (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Create Wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gfshp_SellerReg.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gftshp_Wishlist.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UITest" />
-      <option name="NAME_FILTER" value="^Valid Seller Registration$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Valid Seller Registration$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Valid Seller Registration" />
+      <option name="NAME_FILTER" value="^Create Wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Create Wishlist$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create Wishlist" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -381,15 +375,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Valid Seller Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Customer Checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gfshp_SellerRegStepDef.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Gfshp_checkout.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UITest" />
-      <option name="NAME_FILTER" value="^Valid Seller Registration$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Valid Seller Registration$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Valid Seller Registration" />
+      <option name="NAME_FILTER" value="^Customer Checkout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Customer Checkout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Customer Checkout" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -402,11 +396,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Customer Checkout" />
+        <item itemvalue="Cucumber java.Feature: Gfshp_checkout" />
         <item itemvalue="Cucumber java.Feature: Gfshp_Buyer_Registration" />
-        <item itemvalue="Cucumber java.Feature: Gfshp_SellerReg" />
-        <item itemvalue="Cucumber java.Scenario: Valid Seller Registration (1)" />
-        <item itemvalue="Cucumber java.Scenario: Valid Seller Registration" />
-        <item itemvalue="Cucumber java.Feature: Gfshp_SellerRegStepDef" />
+        <item itemvalue="Cucumber java.Feature: Gftshp_Wishlist" />
+        <item itemvalue="Cucumber java.Scenario: Create Wishlist" />
       </list>
     </recent_temporary>
   </component>
@@ -424,42 +418,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 22h 16m 46s.xml">
+    <history-entry file="Feature__Gftshp_Wishlist - 2019.10.23 at 00h 11m 32s.xml">
+      <configuration name="Feature: Gftshp_Wishlist" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.11.01 at 20h 20m 21s.xml">
       <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 22h 21m 39s.xml">
+    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.11.01 at 20h 23m 30s.xml">
       <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 27m 13s.xml">
+    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.11.01 at 20h 32m 11s.xml">
       <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 32m 56s.xml">
+    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.11.01 at 20h 37m 15s.xml">
       <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 36m 20s.xml">
-      <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Gfshp_checkout - 2019.11.01 at 20h 39m 28s.xml">
+      <configuration name="Feature: Gfshp_checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 38m 03s.xml">
-      <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Gfshp_checkout - 2019.11.02 at 10h 17m 29s.xml">
+      <configuration name="Feature: Gfshp_checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 39m 39s.xml">
-      <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Customer_Checkout - 2019.11.02 at 10h 31m 55s.xml">
+      <configuration name="Scenario: Customer Checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 41m 38s.xml">
-      <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Gfshp_checkout - 2019.11.02 at 10h 49m 06s.xml">
+      <configuration name="Feature: Gfshp_checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 44m 36s.xml">
-      <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Gfshp_Buyer_Registration - 2019.10.20 at 23h 45m 57s.xml">
-      <configuration name="Feature: Gfshp_Buyer_Registration" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Customer_Checkout - 2019.11.02 at 11h 04m 54s.xml">
+      <configuration name="Scenario: Customer Checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16645244" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15102828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,7 +463,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3243607" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30417228" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.30417228" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -482,7 +476,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.019280206" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.10604113" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -590,45 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_checkout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/wishlistsStepdef.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gftshp_Logout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/wishliststepdef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gftshp_Wishlist.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_View_MyAccountOption.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyAccountStepdef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -636,13 +592,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Homepage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -656,34 +605,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/checkoutStepdef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/SellerRegStepdef.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/logout_stepdef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="95" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/Gftshp_loginsteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="697">
           <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/wishlsitstepdef.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/wishlist.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_View_MyAccountOption.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gftshp_Wishlist.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/Wishliststep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Homepage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Login_Forgot Password.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Share_Gift.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -694,41 +679,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Login_Forgot Password.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Share_Gift.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_SellerReg.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/SellerReg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/buyerregStepdef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,18 +708,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_Buyer_Registration.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/buyerregStepdef.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gftshp_Logout.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/logout_stepdef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="39" column="95" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/checkoutStepdef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Gfshp_checkout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>

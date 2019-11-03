@@ -42,11 +42,12 @@ public class buyerregStepdef {
        // throw new PendingException();
     }
 
-    @When("^I enter firstname \"([^\"]*)\"$")
-    public void i_enter_firstname(String firstname) throws Throwable {
+    @When("^I enter firstname \"([^\"]*)\"  #change the parameters to rerun a fresh test$")
+    public void i_enter_firstname_change_the_parameters_to_rerun_a_fresh_test(String firstname) throws Throwable {
         driver.findElement(By.id("input-firstname")).sendKeys(firstname);
-        //throw new PendingException();
+        // throw new PendingException();
     }
+
 
     @When("^I enter lastname \"([^\"]*)\"$")
     public void i_enter_lastname(String lastname) throws Throwable {
@@ -110,7 +111,7 @@ public class buyerregStepdef {
     @Then("^I get a validation message'Already registered email$")
     public void i_get_a_validation_message_Already_registered_email() throws Throwable {
         Assert.assertEquals(driver.findElement(By.cssSelector("#account-register > div.alert.alert-danger.alert-dismissible")).getText(),"Warning: E-Mail Address is already registered!");
-        throw new PendingException();
+        //throw new PendingException();
     }
 
 

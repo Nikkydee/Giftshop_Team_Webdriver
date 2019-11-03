@@ -57,14 +57,14 @@ public class SellerReg {
 
     @When("^I choose Yes to Newsletter subscription$")
     public void i_choose_Yes_to_Newsletter_subscription() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
+        driver.findElement(By.xpath("//*[@id=\"content\"]/form/fieldset[3]/div/div/label[1]/input")).click();
         //throw new PendingException();
     }
 
     @When("^I choose Yes to Become Seller$")
     public void i_choose_Yes_to_Become_Seller() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        driver.findElement(By.xpath("//*[@id=\"remove_document\"]")).click();
+        //throw new PendingException();
     }
 
     @When("^I pick Continue button$")
