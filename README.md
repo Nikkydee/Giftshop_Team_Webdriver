@@ -1,4 +1,4 @@
-## Blueskycitadelform-Training
+## Blueskycitadel-TeamWebdriver
 # Manual Testing
 Software Testing is the process of verifying and validating a aoftware application and ensuring that it meets specied required specification.
 There is no exhaustive testing as a tester, my duty is minimize defects.
@@ -40,7 +40,7 @@ And I enter password
 And I click on login button  
 Then I am logged in
 
-A testcase describes the test condition for a test scenario. It is composed of Testcase ID, Testcae scenario, Actual Result, Expected Result and Result/Status
+A testcase describes the test condition for a test scenario. It is composed of Testcase ID, Testcae scenario, Actual Result, Expected Result and Result/Status  
 
 
 # Automation Test with Selenum+JAVA+Cucumber+TESTNG+MAVENS+Intellij
