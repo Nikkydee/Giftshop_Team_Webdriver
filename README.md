@@ -5,14 +5,14 @@ There is no exhaustive testing as a tester, my duty is minimize defects.
 The skills required for Software Testing includes Communication skills, SQL Skills to query database, Hands on experience on Test Management tool like Azure Deveops,JIRA and Test Rail
 Eye for details to detect defects,quality bug reporting skills.
 
-###**Defect Life cycle**  
+**Defect Life cycle**  
 -Reproduce the defect  
 -Assign the defect a priority and severity  
 -Assign the defect to the development team  
 -Retest the defect when fixed    
 -Close the defect  
 
-###**Types of Testing**  
+**Types of Testing**  
 Manual Testing: process of testing an application to ensure it meets specified requirement.  
 Acceptance Testing:is a test conducted whether to accept or reject a software application.  
 System End-to-End Testing: Is the testing of software application to uncover defects.   
@@ -28,17 +28,18 @@ A feature file describes the single feature of a system. I can have multiple tes
 A background can be used in feature file if there repetitive steps
 Here is an example of a Gherkin Language
 
-Feature: Login Functionality
+**Feature**: Login Functionality
 
-Scenario: Valid Login
+**Scenario**: Valid Login
 
-Given I am on the Giftshop website  
-When I click on login button  
-And I enter user name   
-And I enter password  
-And I click on login button  
-Then I am logged in
+**Given** I am on the Giftshop website  
+**When** I click on login button  
+**And** I enter user name   
+**And** I enter password  
+**And** I click on login button  
+**Then** I am logged in
 
+Testcase  
 A testcase describes the test condition for a test scenario. It is composed of Testcase ID, Testcae scenario, Actual Result, Expected Result and Result/Status  
 
 
