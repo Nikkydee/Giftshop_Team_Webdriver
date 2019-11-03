@@ -60,9 +60,10 @@ b)Update POM file
 
 Download java from https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
 
-![image](https://user-images.githubusercontent.com/43099966/68091384-4f861600-fe7f-11e9-867a-1911eeff38a9.png)    
+![image](https://user-images.githubusercontent.com/43099966/68091384-4f861600-fe7f-11e9-867a-1911eeff38a9.png)   
 
-![image](https://user-images.githubusercontent.com/43099966/68091431-d89d4d00-fe7f-11e9-9d50-d8e90fb50e1f.png)
+
+![Uploading image.png…]()
 
 
 
