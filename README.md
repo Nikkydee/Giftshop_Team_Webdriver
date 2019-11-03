@@ -33,22 +33,37 @@ Feature: Login Functionality
 
 Scenario: Valid Login
 
-Given I am on the Giftshop website
-
-When I click on login button
-
-And I enter user name 
-
-And I enter password
-
-And I click on login button
-
+Given I am on the Giftshop website  
+When I click on login button  
+And I enter user name   
+And I enter password  
+And I click on login button  
 Then I am logged in
 
 A testcase describes the test condition for a test scenario. It is composed of Testcase ID, Testcae scenario, Actual Result, Expected Result and Result/Status
 
 
 # Automation Test with Selenum+JAVA+Cucumber+TESTNG+MAVENS+Intellij
+
+Steps to follow  
+STEP 1: Install Java JDK 12 from https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html  
+STEP 2: Configure variable environment   
+i) Set the Java Home in Advanced System Settings on PC  
+ii) Update PATH  
+STEP 3: Install Maven  
+a)Set Maven Home Path in Advanced System Settings
+STEP 4: Install Intellij  
+a)Configure path in intellij  
+b)Update POM file  
+
+#JAVA INSTALLATION:
+
+Download java from https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
+
+
+
+
+
 
 
 
