@@ -56,14 +56,346 @@ STEP 4: Install Intellij
 a)Configure path in intellij  
 b)Update POM file  
 
-#JAVA INSTALLATION:
+##JAVA INSTALLATION
 
 Download java from https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
 
-![image](https://user-images.githubusercontent.com/43099966/68091384-4f861600-fe7f-11e9-867a-1911eeff38a9.png)   
+![image](https://user-images.githubusercontent.com/43099966/68091384-4f861600-fe7f-11e9-867a-1911eeff38a9.png)  
 
 
-![Uploading image.png…]()
+##CONFIGURING VARIABLE  
+a) Set the Java Home:
+
+
+
+
+
+b) Update PATH
+
+
+##INSTALL MAVEN
+
+
+
+##CONFIGURE MAVEN
+
+
+##INSTALL INTELLIJ
+
+
+##CONFIGURE INTELLIJ
+
+
+### ADD CUCUMBER PLUGIN
+
+##UPDATE POM  
+
+properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-jvm-deps</artifactId>
+            <version>1.0.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>1.2.5</version>
+            <scope>compile</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>junit</groupId>
+                    <artifactId>junit</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.9.8</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>3.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>3.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>3.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>3.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.6-jre</version>
+            <classifier></classifier>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.14.1</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>3.8.0</version>
+
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+
+                        <configuration>
+                            <projectName>UITest4</projectName> <!-- Replace with project name -->
+                            <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
+                            <cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
+                            <buildNumber>1</buildNumber>
+                            <parallelTesting>false</parallelTesting>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+##UPDATE TESTRUNNER  
+import cucumber.api.CucumberOptions;
+
+import cucumber.api.testng.TestNGCucumberRunner;
+
+import cucumber.api.testng.CucumberFeatureWrapper;
+
+import org.testng.annotations.AfterClass;
+
+import org.testng.annotations.BeforeClass;
+
+import org.testng.annotations.DataProvider;
+
+import org.testng.annotations.Test;
+
+@CucumberOptions(
+
+        features = "src/test/resources/features",
+
+        glue = {"stepdefs"},
+
+        tags = {"~@Ignore"},
+
+        format = {
+
+                "pretty",
+
+                "html:target/cucumber-reports/cucumber-pretty",
+
+                "json:target/cucumber-reports/CucumberTestReport.json",
+
+                "rerun:target/cucumber-reports/rerun.txt"
+
+        })
+
+public class TestRunner {
+
+    private TestNGCucumberRunner testNGCucumberRunner;
+
+    @BeforeClass(alwaysRun = true)
+
+    public void setUpClass() throws Exception {
+
+        testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
+
+    }
+
+    @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
+
+    public void feature(CucumberFeatureWrapper cucumberFeature) {
+
+        testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
+
+    }
+
+    @DataProvider
+
+    public Object[][] features() {
+
+        return testNGCucumberRunner.provideFeatures();
+
+    }
+
+    @AfterClass(alwaysRun = true)
+
+    public void tearDownClass() throws Exception {
+
+        testNGCucumberRunner.finish();
+
+    }
+
+}
+
+
+
+##UPDATE TESTNG FILE
+
+<?xml version=”1.0″ encoding=”UTF-8″?>
+
+<!DOCTYPE suite SYSTEM “http://testng.org/testng-1.0.dtd”>
+
+<suite name=”BDD Test Suite” verbose=”1″ parallel=”tests” thread-count=”1″ configfailurepolicy=”continue”>
+
+<test name=”Login and Update Profile Test” annotations=”JDK” preserve-order=”true”>
+
+<classes>
+
+<class name=”TestRunner”/>
+
+</classes>
+
+</test>
+
+</suite>
+
+
+##CREATE JAVA FILE
+
+##CREATE FEATURE FILE  
+Feature: GiftShop Logout
+  Scenario: Logout
+    Given I am logged on to the Giftshop website
+    When  I select Logout menu option
+    Then   I am logged out of the giftrete website
+    
+    
+ 
+
+##WRITE YOUR FIRST CODE IN STEPDEF
+
+package stepdefs;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.concurrent.TimeUnit;
+
+public class logout_stepdef {
+  public static  WebDriver driver;
+
+
+    public void login(){
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver_win32\\chromedriver.exe");
+
+
+        driver = new ChromeDriver();
+        //driver = new FirefoxDriver();
+
+        //step4: Navigate to URL
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("https://giftshop.giftrete.com");
+        driver.manage().window().maximize();
+    }
+
+    @Given("^I am logged on to the Giftshop website$")
+    public void i_am_logged_on_to_the_Giftshop_website() throws Throwable {
+
+        login();
+
+        driver.findElement(By.cssSelector("#top-links > ul > li.dropdown > a > span.caret")).click();
+        driver.findElement((By.linkText("Login"))).click();
+        driver.findElement(By.xpath("//*[@id=\"input-email\"]")).sendKeys("nicholasobagunle@gmail.com");
+        driver.findElement(By.xpath("//*[@id=\"input-password\"]")).sendKeys("nicholas");
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input")).click();
+
+       // throw new PendingException();
+    }
+
+    @When("^I select Logout menu option$")
+    public void i_select_Logout_menu_option() throws Throwable {
+        driver.findElement(By.cssSelector("#top-links > ul > li.dropdown > a > span.caret")).click();
+        driver.findElement(By.linkText("Logout")).click();
+        //throw new PendingException();
+    }
+    @Then("^I am logged out of the giftrete website$")
+    public void i_am_logged_out_of_the_giftrete_website() throws Throwable {
+       if(driver.findElement(By.cssSelector("#content > h1")).isDisplayed()){
+           System.out.println("Element is Visible");
+       }
+       else{
+           System.out.println("Element is Absent");
+       }
+        //throw new PendingException();
+    }
+
+}
+
+
+
+
+
+
 
 
 
