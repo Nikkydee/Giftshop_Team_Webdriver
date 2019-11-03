@@ -293,7 +293,7 @@ public class TestRunner {
 
 
 
-##UPDATE TESTNG FILE
+**10.UPDATE TESTNG FILE**
 
 <?xml version=”1.0″ encoding=”UTF-8″?>
 
@@ -314,7 +314,7 @@ public class TestRunner {
 </suite>
 
 
-##CREATE JAVA FILE
+**11.CREATE JAVA FILE**
 
 ##CREATE FEATURE FILE  
 Feature: GiftShop Logout
@@ -326,7 +326,7 @@ Feature: GiftShop Logout
     
  
 
-##WRITE YOUR FIRST CODE IN STEPDEF
+**12.WRITE YOUR FIRST CODE IN STEPDEFINITION**
 
 package stepdefs;
 
