@@ -5,7 +5,7 @@ There is no exhaustive testing as a tester, my duty is minimize defects.
 The skills required for Software Testing includes Communication skills, SQL Skills to query database, Hands on experience on Test Management tool like Azure Deveops,JIRA and Test Rail
 Eye for details to detect defects,quality bug reporting skills.
 
-Defect Life cycle
+** Defect Life cycle **
 -Reproduce the defect  
 -Assign the defect a priority and severity  
 -Assign the defect to the development team  
