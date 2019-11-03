@@ -1,5 +1,5 @@
 # Blueskycitadel-TeamWebdriver
-## Manual Testing
+### Manual Testing
 Software Testing is the process of verifying and validating a software application and ensuring that it meets specied required specification.
 There is no exhaustive testing as a tester, my duty is minimize defects.
 The skills required for Software Testing includes Communication skills, SQL Skills to query database, Hands on experience on Test Management tool like Azure Deveops,JIRA and Test Rail
@@ -59,6 +59,11 @@ b)Update POM file
 #JAVA INSTALLATION:
 
 Download java from https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
+
+![image](https://user-images.githubusercontent.com/43099966/68091384-4f861600-fe7f-11e9-867a-1911eeff38a9.png)    
+
+![image](https://user-images.githubusercontent.com/43099966/68091431-d89d4d00-fe7f-11e9-9d50-d8e90fb50e1f.png)
+
 
 
 
