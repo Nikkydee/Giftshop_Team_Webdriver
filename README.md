@@ -62,6 +62,8 @@ Download java from https://www.oracle.com/technetwork/java/javase/downloads/inde
 
 ![image](https://user-images.githubusercontent.com/43099966/68091384-4f861600-fe7f-11e9-867a-1911eeff38a9.png)  
 
+![image](https://user-images.githubusercontent.com/43099966/68128862-d3d8a780-ff18-11e9-9978-045a820abf37.png)
+
 
 **2.CONFIGURING VARIABLE ** 
 a) Set the Java Home:
