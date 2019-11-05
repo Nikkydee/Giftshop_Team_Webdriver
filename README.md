@@ -67,7 +67,7 @@ Procced to the next window
 ![image](https://user-images.githubusercontent.com/43099966/68128862-d3d8a780-ff18-11e9-9978-045a820abf37.png)
 
 
-**2.CONFIGURING VARIABLE** 
+**2.CONFIGURING VARIABLE**   
 a) Set the Java Home:
 
 
