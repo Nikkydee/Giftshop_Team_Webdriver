@@ -42,6 +42,10 @@ Here is an example of a Gherkin Language
 Testcase  
 A testcase describes the test condition for a test scenario. It is composed of Testcase ID, Testcae scenario, Actual Result, Expected Result and Result/Status  
 
+A sample testcase for myproject  
+
+![image](https://user-images.githubusercontent.com/43099966/68214208-4e6afb00-ffdd-11e9-8438-5de7dfd21fc2.png)
+
 
 # Automation Test with Selenum+JAVA+Cucumber+TESTNG+MAVENS+Intellij
 
@@ -69,22 +73,35 @@ Procced to the next window
 
 **2.CONFIGURING VARIABLE**   
 a) Set the Java Home:
+You search for Advanced setting on your PC searching for Advanced settingd in search window on your PC >> Click on Advanced settings Tab >> Click on Environmental Variable >> Click on New menu >> Add JAVA_HOME >>Enter the variable value "C:\programfiles\jdk 13.0 >> Click Ok
 
 
 
 
 
-b) Update PATH
-
-
-**3.INSTALL MAVEN**
 
 
 
-**4.CONFIGURE MAVEN**
+b) Update PATH  
+Click on Path on the System variable >> find path and add "\;%JAVA_HOME%\bin"
+ 
+
+**3.INSTALL MAVEN**  
+Download Maven at "https://maven.apache.org/download.cgi"
 
 
-**5.INSTALL INTELLIJ**
+
+
+**4.CONFIGURE MAVEN**  
+You search for Advanced setting on your PC searching for Advanced settingd in search window on your PC >> Click on Advanced settings Tab >> Click on Environmental Variable >> Click on New menu >> Add MAVEN_HOME >>Enter the variable value "C:\apache-maven >> Click Ok  
+
+Set Path as "%MAVEN_HOME%\bin"
+
+**5.INSTALL INTELLIJ**  
+Go to https://www.jetbrains.com/idea  
+Notice: Install the community version  
+Check the following
+
 
 
 **6.CONFIGURE INTELLIJ**
