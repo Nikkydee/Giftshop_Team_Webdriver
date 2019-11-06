@@ -72,8 +72,8 @@ Procced to the next window
 
 
 **2.CONFIGURING VARIABLE**   
-a) Set the Java Home:
-You search for Advanced setting on your PC searching for Advanced settingd in search window on your PC >> Click on Advanced settings Tab >> Click on Environmental Variable >> Click on New menu >> Add JAVA_HOME >>Enter the variable value "C:\programfiles\jdk 13.0 >> Click Ok
+a) Set the Java Home:  
+You search for Advanced setting on your PC searching for Advanced setting in search window on your PC >> Click on Advanced settings Tab >> Click on Environmental Variable >> Click on New menu >> Add JAVA_HOME >>Enter the variable value "C:\programfiles\jdk 13.0 >> Click Ok
 
 
 
