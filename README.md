@@ -413,28 +413,6 @@ public class logout_stepdef {
 }
 
 
-#CHALLENGES ENCOUNTERED
-
-I was getting this error while running my other feature files because I worked with multiple feature files  
-m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\user\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\plugins\junit\lib\junit-rt.jar;C:\Users\user\.IdeaIC2019.1\config\plugins\cucumber-java\lib\cucumber-jvmFormatter.jar" cucumber.api.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome C:/Users/user/IdeaProjects/UITest/src/test/resources/features/Gftshp_Wishlist.feature
-
-0 Scenarios
-0 Steps
-0m0.000s
-
-
-Process finished with exit code 0
-
-Solution:  
-Under Run → Edit Configurations → Templates → Cucumber java, 
-set "Shorten command line" to "JAR manifest" (this setting was added in IntelliJ 2018.2)
-
-Then I naviagated to that file in the edit configuration and set the glue to have a value 'stepdef'  
-
-![image](https://user-images.githubusercontent.com/43099966/68432157-297cb080-01b4-11ea-9f4c-ef9a5189e1f6.png)
-
-Then I enetered stepdefs in the Glue field
-![image](https://user-images.githubusercontent.com/43099966/68432471-c5a6b780-01b4-11ea-8067-18565abab678.png)
 
 
 
