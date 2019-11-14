@@ -417,6 +417,55 @@ public class logout_stepdef {
 
 
 
+#MANUAL AUTOMATION WITH APPIUM
+
+Appium is an opened source tool to automate mobile applications written in node.js. It can automate Native,Hybrid and Web Mobile Application.  
+
+Desired Capabilities are keys and values sent to the Appium server to inform the server of the type of automations we are working on.
+Examples of desired capabilities  
+("deviceName", "My Phone");
+(""udid, "EUL6788999987"//gives device ID of your mobile phone  
+("platformName", "Android"),    
+("platformVersion", "6.0"),  
+("appPackage", "com.google.android finsky.activities.MainActivity"),   
+("NoReset", "Android"),  
+("platformNmae", "true"),  
+
+
+**Installing nodejs on PC  
+
+1) Check if nodejs is installed on your machine    
+Go to 'cmc' and type  
+>node --version  
+>npm --version
+
+2) Go to google, acess nodejs download  and install node js
+
+Check >where node,  
+>where npm 
+NB: When you install nodejs npm is automatically installed  
+**Installing Appium**  
+
+>npm install -g appium  
+After sucessful installation, type the code below in cmd  
+>where appium  
+In order to open appium type appium and to close appium, press Ctrl +C
+
+**Installing appium with Appium Desktop Client(Installing Appium on Window)**  
+- Visitappium.io  on googler search  
+-Select Appium Windows -1.13.0 to download   
+
+
+
+
+
+
+
+
+
+
+
+2)
 
 
 
