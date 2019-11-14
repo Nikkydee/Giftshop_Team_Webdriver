@@ -432,7 +432,7 @@ Examples of desired capabilities
 ("platformNmae", "true"),  
 
 
-**Installing nodejs on PC  
+A)**Installing nodejs on PC  
 
 1) Check if nodejs is installed on your machine    
 Go to 'cmc' and type  
@@ -451,9 +451,29 @@ After sucessful installation, type the code below in cmd
 >where appium  
 In order to open appium type appium and to close appium, press Ctrl +C
 
-**Installing appium with Appium Desktop Client(Installing Appium on Window)**  
-- Visitappium.io  on googler search  
--Select Appium Windows -1.13.0 to download   
+B)**Installing appium with Appium Desktop Client(Installing Appium on Window)**  
+- Visit **appium.io**  on googler search  
+- Select Appium Windows -1.13.0 to download  
+- Start Appiun on desktop  
+- Install Appium doctor  
+This is to check appium insatllation and requirement dependencies are met, then you use appium to diagnose bugs
+c)**Installinag Appium Doctor**
+Open your cmd and install with the code below  
+
+>npm  install appium-doctor -g
+
+Check if Appium doctor has been sucessfully installed    
+>appium-doctor --version
+
+**Unstalling Appium**
+npm uninstall -g appium  
+
+NB: check for documentation @ this link:  https://github.com/appium/appium-doctor
+c).**Downloading SDK Tools**
+ Go to "https//developer.android.com/studio/commandline/sdk manager" to download SDK tools. Navigate to 
+ 
+
+>appium-doctor --android  
 
 
 
