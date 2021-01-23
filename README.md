@@ -87,7 +87,8 @@ Click on Path on the System variable >> find path and add "\;%JAVA_HOME%\bin"
  
 
 **3.INSTALL MAVEN**  
-Download Maven at "https://maven.apache.org/download.cgi"
+Download Maven at "https://maven.apache.org/download.cgi"  
+DownloAD THE Binary Zip Archive
 
 
 
