@@ -296,6 +296,22 @@ public class TestRunner {
     }
 
     @DataProvider
+    
+    
+    
+    
+    
+    
+    
+    
+   ### Jdk is pointing to java 8 Issue Solution.
+
+Firstly note that the jdk will always point to the java that was first installed on the PC unless it is deleted
+Go to control panel uninstall the java 8.
+
+Go to environment variable remove all.the path pointing to javapath of java8.
+Move% java home%\bin to the top of the page save
+Reopen a new cmd check.java version the directory now points to java 15 voila
 
     public Object[][] features() {
 
