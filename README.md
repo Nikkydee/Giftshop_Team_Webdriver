@@ -507,7 +507,7 @@ Reopen a new cmd check.java version the directory now points to java 15 voila
 
   ### Maven throwing error 'Cannot resolve plugin org.apache.maven.plugins:maven-resources-plugin:2.6' Issue Solution.
 
-I downgraded to intellij 2020.1.4
+I downgraded to intellij 2020.1.4 didnt work
 
 <build>
     <pluginManagement>
@@ -540,6 +540,27 @@ I downgraded to intellij 2020.1.4
         </plugins>
     </pluginManagement>
 </build>
+
+
+
+
+Step1: Delete all instances of java from you machine
+
+Step2: Delete all the environment variables related to java/jdk/jre
+
+Step3: Check in programm files and program files(X86) folder, there should not be java folder.
+
+Step4: Install java again.
+
+Step5: Go to cmd and type "java -version" Result: it will display the java version which is installed in your machine.
+
+Step6: now delete all the files which are in C:/User/AdminOrUserNameofYourMachine/.m2 folder
+
+Step6: go to cmd and run "mvn -v" Result: It will display the Apache maven version installed on your machine
+
+Step7: Now Rebuild your project.
+
+This worked for me.
 
 
 
